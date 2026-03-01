@@ -1,0 +1,63 @@
+body {
+    background: linear-gradient(to right, #ffe4ec, #fff5cc);
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Hero */
+.hero {
+    padding: 80px 0;
+    background: linear-gradient(to right, #ffb6c1, #ffd580);
+    color: #333;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+/* Button */
+.btn-fun {
+    background-color: #ff8fab;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 25px;
+    transition: 0.3s;
+}
+
+.btn-fun:hover {
+    background-color: #ff4d6d;
+    transform: scale(1.1);
+}
+
+/* Course Cards */
+.course-card {
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.course-card:hover {
+    transform: translateY(-10px);
+    background: #fff0f6;
+}
+
+/* Progress Section */
+.progress-section {
+    background: #fff5e1;
+}
+
+.progress {
+    height: 30px;
+    border-radius: 20px;
+}
+
+/* Video */
+.video-box {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+/* Footer */
+footer {
+    background: #ffe4ec;
+    font-weight: 500;
+}
